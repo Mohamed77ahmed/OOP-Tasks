@@ -33,6 +33,7 @@ namespace assignment1
 
             return oldest;
         }
+       
 
 
 
@@ -40,24 +41,32 @@ namespace assignment1
 
     public enum Season
     { 
-    Spring,
-    Summer,
-    Winter,
-    Autumn
+    Spring=0
+   ,spring=0,
+    Summer=1,
+    summer=1,
+    Winter=2,
+    winter=2,
+    Autumn=3
+    ,autumn=3
     }
 
     public enum Colors
     {
-        Red
-        ,Green
-        ,Blue
 
-
+        Red = 0,
+        red = 0
+        ,Green=1 
+        ,green=1
+        ,blue=2
+        ,Blue=2
     }
 
     public struct Point
     {
-        public double X { get; set; }
+        public double X 
+        { get; set; 
+        }
         public double Y { get; set; }
 
         public Point(double _x,double _y)

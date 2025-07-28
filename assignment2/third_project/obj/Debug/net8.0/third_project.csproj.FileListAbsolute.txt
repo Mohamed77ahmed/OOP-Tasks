@@ -1,0 +1,12 @@
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\bin\Debug\net8.0\third_project.deps.json
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\bin\Debug\net8.0\third_project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\bin\Debug\net8.0\third_project.pdb
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.AssemblyInfoInputs.cache
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.AssemblyInfo.cs
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.sourcelink.json
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\refint\third_project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\third_project.pdb
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\third_project\obj\Debug\net8.0\ref\third_project.dll

@@ -1,10 +1,12 @@
-﻿namespace third_project
+﻿using System.Diagnostics.Contracts;
+
+namespace third_project
 {
     public class Duration
     {
-        public int Hour { get; set; }
-        public int Minute { get; set; }
-        public int Second { get; set; }
+        public double Hour { get; set; }
+        public double Minute { get; set; }
+        public double Second { get; set; }
 
         public Duration()
         {
@@ -20,7 +22,7 @@
         public Duration(int _second)
         {
             Hour =_second/3600;
-            Minute = _second%360;
+            Minute = (_second%3600)/60;
             Second = _second%60;
         }
 
@@ -49,6 +51,28 @@
 
             };
         }
+        public static Duration operator +(Duration a, int b)
+        {
+            return new Duration
+            {
+                Hour = (a?.Hour ?? 0) + (b/3600 ),
+                Minute = (a?.Minute ?? 0) + (b%3600)/60,
+                Second = (a?.Second ?? 0) + (b%60)
+
+
+            };
+        }
+
+        public static Duration operator +(int b,Duration a)
+        {
+            return new Duration
+            {
+                Hour = (a?.Hour ?? 0) + (b / 3600),
+                Minute = (a?.Minute ?? 0) + (b % 3600) / 60,
+                Second = (a?.Second ?? 0) + (b % 60)
+            };
+        }
+
         public static Duration operator -(Duration a, Duration b)
         {
             return new Duration
@@ -88,9 +112,8 @@
                 (a?.Second ?? 0)== (b?.Second ?? 0))
                 return true;
             else return false;
-
-
         }
+
         public static bool operator !=(Duration a, Duration b)
         {
             if (
@@ -99,9 +122,17 @@
                 (a?.Second ?? 0) == (b?.Second ?? 0))
                 return true;
             else return false;
+        }
 
 
-
+        public static bool operator >=(Duration a, Duration b)
+        {
+            if (
+             (a?.Hour ?? 0) >= (b?.Hour ?? 0) &&
+               (a?.Minute ?? 0) >= (b?.Minute ?? 0) &&
+                (a?.Second ?? 0) >=(b?.Second ?? 0))
+                return true;
+            else return false;
         }
 
 
@@ -109,15 +140,23 @@
         {
             if (
              (a?.Hour ?? 0) > (b?.Hour ?? 0) &&
-               (a?.Minute ?? 0) > (b?.Minute ?? 0) &&
+               (a?.Minute ?? 0) >(b?.Minute ?? 0) &&
                 (a?.Second ?? 0) > (b?.Second ?? 0))
                 return true;
             else return false;
-
-
-
         }
 
+
+
+        public static bool operator <=(Duration a, Duration b)
+        {
+            if (
+             (a?.Hour ?? 0) <= (b?.Hour ?? 0) &&
+               (a?.Minute ?? 0) <= (b?.Minute ?? 0) &&
+                (a?.Second ?? 0) <= (b?.Second ?? 0))
+                return true;
+            else return false;
+        }
 
 
         public static bool operator <(Duration a, Duration b)
@@ -128,14 +167,19 @@
                 (a?.Second ?? 0) < (b?.Second ?? 0))
                 return true;
             else return false;
-
-
-
         }
 
-       
+        public static bool operator ! (Duration a)
+        {
+            if((a?.Hour??0)<0 && (a?.Minute ?? 0) < 0 && (a?.Second ?? 0) < 0) return true;
+            else return false;
+        }
 
-
+       // public static explicit operator DateTime(Duration a)
+        {
+           
+            
+        }
 
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\bin\Debug\net8.0\Frist project.deps.json
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\bin\Debug\net8.0\Frist project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\bin\Debug\net8.0\Frist project.pdb
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.AssemblyInfoInputs.cache
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.AssemblyInfo.cs
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.sourcelink.json
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\refint\Frist project.dll
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\Frist project.pdb
+C:\Users\Mohamed\OneDrive\Documents\OOP-assiginments\assignment2\Frist project\obj\Debug\net8.0\ref\Frist project.dll
